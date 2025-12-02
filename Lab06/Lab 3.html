@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="style.css">
+    <!--9,create “.divf” class in internal css file and use 
+    {float, clear} properties and  use {left} value for both 
+    properties.-->
+    <style>
+      .divf {
+        float:left;
+       clear:left;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div>Div 1</div>
+    <div>Div 2</div>
+    <div>Div 3</div>
+
+    <p>Paragraph 1 (default)</p>
+    <p class="inline-paragraph">Paragraph 2 (inline)</p>
+    <p class="static-pos">Paragraph 3 (static)</p>
+    <p class="relative-pos">Paragraph 4 (relative)</p>
+    <p class="absolute-pos">Paragraph 5 (absolute)</p>
+    <p class="fixed-pos">Paragraph 6 (fixed)</p>
+    <p class="sticky-pos">Paragraph 7 (sticky)</p>
+
+    <a href="#">Link 1 (default inline)</a>
+    <a href="#" class="block-link">Link 2 (block)</a>
+    <a href="#">Link 3 (default inline)</a>
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!-- Step 5: Other display values -->
+    <div class="flex-container">
+      <div>Flex Item 1</div>
+      <div>Flex Item 2</div>
+      <div>Flex Item 3</div>
+    </div>
+
+    <div class="grid-container">
+      <div>Grid Item 1</div>
+      <div>Grid Item 2</div>
+      <div>Grid Item 3</div>
+    </div>
+
+    <div class="inline-block-example">Inline-block</div>
+    <div class="none-example">This is hidden</div>
+
+<p> this is Question Number 7</p>
+<p class="f-family"> Hello,  Today is Tuesday...MEOW</p>
+<!--. define <div> element in the body and have paragraph element within it.
+   The paragraph may contain more than 10 line of paragraph from any source on the internet.
+     Now define inline style for this div section and determine width(200px) height(150px). 
+     Then after using overflow properties examine the different values of it. [visible, hiddden, auto, scroll] -->
+     <div style="width: 200px; height: 150px;overflow:scroll">
+        <p>
+          Beneath the fading glow of the evening sky, the small town seemed to hold its breath. A gentle breeze carried the scent of blooming jasmine through the narrow streets. Children’s laughter echoed faintly from a distant park, mingling with the rhythmic chirping of crickets. Old street lamps flickered to life, casting long shadows on cobblestone paths. Somewhere, a dog barked lazily, as if announcing the arrival of night. The bakery on the corner closed its doors, but the warmth of fresh bread still lingered in the air. A lone cyclist pedaled past, his headlight cutting a thin beam through the growing darkness. In the square, a fountain whispered softly, its water catching the last traces of sunlight. Above, the first stars began to appear, shy yet certain in their glow. The town, wrapped in quiet, seemed ready to dream.
+        </p>
+        </div>
+<h3>&</h3>
+ <div style="width: 200px; height: 150px;overflow:auto">
+        <p>
+          Beneath the fading glow of the evening sky, the small town seemed to hold its breath. A gentle breeze carried the scent of blooming jasmine through the narrow streets. Children’s laughter echoed faintly from a distant park, mingling with the rhythmic chirping of crickets. Old street lamps flickered to life, casting long shadows on cobblestone paths. Somewhere, a dog barked lazily, as if announcing the arrival of night. The bakery on the corner closed its doors, but the warmth of fresh bread still lingered in the air. A lone cyclist pedaled past, his headlight cutting a thin beam through the growing darkness. In the square, a fountain whispered softly, its water catching the last traces of sunlight. Above, the first stars began to appear, shy yet certain in their glow. The town, wrapped in quiet, seemed ready to dream.
+        </p>
+        </div>
+
+<div class="divf">
+  <p>
+    Hawassa University Institiute of Technology
+  </p>
+</div>
+<br><br><br><br><br><br>
+<!--10. back to body part and define three <div> tags from which one is parent and two dive elements are siblings.
+   Look at a default appearance of these segments. Then invoke “divf” class for both internal div elements.
+    Look at the appearance know.  Define inline style for background-color then Identify the difference. -->
+
+<div style="border:2px solid red; padding:10px;">
+  <div class="divf" style="background-color: lightblue;">Sibling 1 (with divf)</div>
+  <div class="divf" style="background-color: lightgreen;">Sibling 2 (with divf)</div>
+</div>
+
+<!--11. Examine four Combinators 
+[Descendant, child, adjacent sibling, general sibling]
+-->
+  </body>
+</html>

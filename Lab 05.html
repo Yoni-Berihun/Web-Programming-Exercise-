@@ -1,7 +1,9 @@
 <!-- Questions-->
  <!-- 1 basic Inline style: create an HTML paragraph and apply inline css to change its corolr to red and font sixe to 20px. -->
   <!-- 2, Multiple inline Styles create a <div> with a background color of light blue and padding of 15px using inline css-->
-    <!-- 3, Basic internal -->
+    <!-- 3, Basic internal Styles: Create an HTML document qith a <style> tag in the <head> style all headings (<h1>, <h2> ) to have font-family of "Arial" and color of green-->
+        <!-- 4, MOre complex Internal Styles: Create a simple webpage with internal CSS that styles a list change the list itemas color to purple and add margin of 10px.-->
+         <!--Linkin an External CSS File: create an external CSS file named Style.css and linkit to an HTML file in style.cssset the body background color to lightgray and all paragraphs to have font size of 18px-->
 <!DOCTYPE html>
 
 <html>
@@ -17,7 +19,12 @@
                 font-family:Ariel;
                 color:green
             }
+            ul{
+                color:purple;
+                margin:10px
+            }
         </style>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <h1>Lab practice</h1>
@@ -35,6 +42,16 @@
         <h1>  this is Heading one</h1>
         <br>
         <h2> this Heading two</h2>
+        <br>
+        <h4> the following are progrramming languages </h4>
+        <ul>
+        
+            <li> C#</li>
+            <li> C++</li>
+            <li> Dart</li>
+            <li>Java</li>
+            <li> Python </li>
+        </ul>
 
     </body>
 </html>
