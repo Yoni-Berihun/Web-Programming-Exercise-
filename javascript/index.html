@@ -12,5 +12,28 @@
            
         <p id="demo" onmouseover="changeText()" >this is todays paragraph this will be replaced by new on hover</p>
         <button onclick="changeText()" click to change the text></button>
+        <br><br>
+        <button onClick="openPrompt()">this button opens Prompt</button>
+
+        <script>
+            function openPrompt()
+            {
+                let urName = prompt("Enter ur name: ");
+                if(urName){
+                    document.getElementById("demo").innerHTML="Hello"+urName +"!"
+                }
+            }
+        </script>
+
+
+        <button onClick="openConfirm()">This Button opens a confirm dialog</button>
+        <script>
+            function openConfirm(){
+                let result = confirm("Lets continue ?");
+                if(result){
+                    document.getElementById("demo").innerHTML="Cool Keep Going!"
+                }
+            }
+        </script>
     </body>
 </html>
